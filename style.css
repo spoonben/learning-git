@@ -6,3 +6,40 @@ section h1 {
     text-align:center;
     padding: 10px 0;
 }
+.commands {
+    width: 1000px;
+}
+.basic-commands{
+    list-style: none;
+}
+.basic-commands li {
+    display:block;
+    float:left;
+    padding:0 10px;
+    margin:0 5px;
+    border-left: 1px solid b7b7b7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    -ms-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.basic-command-descriptions {
+    display:block;
+    list-style: none;
+}
+.basic-command-descriptions li {
+    display:none;
+}
+.description-box {
+    margin:50px 45px;
+}
+.description {
+    clear:both;
+    display:block;
+    width:500px;
+    height: 50px;
+    font-size: 12pt;
+    padding:10px;
+    resize: none;
+}

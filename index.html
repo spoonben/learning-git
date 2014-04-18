@@ -2,12 +2,44 @@
     <head>
         <title>Learning Git!</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
 
     <body>
         <section class="header">
             <h1>Lets Learn Git</h1>
-        </section>        
+        </section>
+        <section class="commands">
+            <h2>Basic Commands</h2>
+            <ul class="basic-commands">
+                <li>fetch</li>
+                <li>pull</li>
+                <li>add</li>
+                <li>commit</li>
+                <li>branch</li>
+                <li>stash</li>
+                <li>checkout</li>
+                <li>reset</li>
+                <li>rebase</li>
+                <li>status</li>
+            </ul>
+            <ul class="basic-command-descriptions">
+                <li class="fetch-description">Gets the latest tags and branches from origin</li>
+                <li class="pull-description">Gets the latest commits for a given branch</li>
+                <li class="add-description">Adds your changes to staging</li>
+                <li class="commit-description">Commits the changes you have in staging</li>
+                <li class="branch-description">Lists/Creates/Deletes Branches</li>
+                <li class="stash-description">Stash or un-stash your un-staged changes</li>
+                <li class="checkout-description">Checks out a given branch or file</li>
+                <li class="reset-description">Resets your head to a different point in time</li>
+                <li class="rebase-description">Puts your changes on/ahead of another branch</li>
+                <li class="status-description">Shows what files have been changed/staged/etc</li>
+            </ul>
+        </section>
+        <section class="description-box">
+            <textarea class="description" readonly="readonly" placeholder="Click on a command to get it's friendly definition"></textarea>
+        </section>
     </body>
 
 </html>
