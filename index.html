@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Learning Git!</title>
+        <title>Learning git</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script type="text/javascript" src="index.js"></script>
@@ -8,21 +8,38 @@
 
     <body>
         <section class="header">
-            <h1>Lets Learn Git</h1>
+            <h1>Learning git</h1>
+        </section>
+        <section class="info">
+            <h2>git links</h2>
+            <ul>
+                <li>Git Website: <a href="https://git-scm.com/">https://git-scm.com/</a>
+                    <p>Useful commands, complicated explinations.</p>
+                </li>
+                <li>The Git Book: <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a>
+                    <p>The official git book.</p>
+                </li>
+                <li>Code School: <a href="https://www.codeschool.com/paths/git">https://www.codeschool.com/paths/git</a>
+                    <p>One of the better courses out there to learn and play with git.</p>
+                </li>
+                <li>Git Branching Tutorial <a href="http://pcottle.github.io/learnGitBranching/">http://pcottle.github.io/learnGitBranching/</a>
+                <p>One of the first tutorials I did with Git. Gives you a good understanding of what "HEAD" is and how it works.</p>
+                </li>
+            </ul>
         </section>
         <section class="commands">
-            <h2>Basic Commands</h2>
+            <h2>basic commands</h2>
             <ul class="basic-commands">
-                <li>fetch</li>
-                <li>pull</li>
-                <li>add</li>
-                <li>commit</li>
-                <li>branch</li>
-                <li>stash</li>
-                <li>checkout</li>
-                <li>reset</li>
-                <li>rebase</li>
-                <li>status</li>
+                <li class="get-code">fetch</li>
+                <li class="get-code">pull</li>
+                <li class="push-code">add</li>
+                <li class="push-code">commit</li>
+                <li class="local-code">branch</li>
+                <li class="local-code">stash</li>
+                <li class="local-code">checkout</li>
+                <li class="local-code">reset</li>
+                <li class="local-code">rebase</li>
+                <li class="local-code">status</li>
             </ul>
             <ul class="basic-command-descriptions">
                 <li class="fetch-description">Gets the latest tags and branches from origin</li>
@@ -39,6 +56,15 @@
         </section>
         <section class="description-box">
             <textarea class="description" readonly="readonly" placeholder="Click on a command to get it's friendly definition"></textarea>
+        </section>
+        <section>
+            <h2>available branches</h2>
+            <p>These are branches available to you to practice with</p>
+            <ul>
+                <li><strong>simple-feature-branch</strong> - branch off master with 0 conflicts</li>
+                <li><strong>merge-conflicts-rebase</strong> - branch off master with merge conflicts, practice rebasing</li>
+                <li><strong>feature-branching</strong> - branch off of the "simple-feature-branch" branch. Practice rebasing on top of the feature branch instead of master.</li>
+            </ul>
         </section>
     </body>
 

@@ -1,9 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #ecf0f1;
+    padding:20px;
 }
 section h1 {
     padding: 10px 0;
+    font-size: 2em;
 }
 .commands {
     width: 1000px;
@@ -15,8 +18,8 @@ section h1 {
 .basic-commands li {
     display:block;
     float:left;
-    padding:0 10px;
-    margin-right:5px;
+    padding:5px 10px;
+    margin:0 10px 20px 0;
     border-left: 1px solid b7b7b7;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
@@ -42,4 +45,13 @@ section h1 {
     font-size: 12pt;
     padding:10px;
     resize: none;
+}
+.get-code {
+    background-color: #2ecc71;
+}
+.push-code {
+    background-color: #3498db;
+}
+.local-code {
+    background-color: #9b59b6;
 }
